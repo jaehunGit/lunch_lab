@@ -1,0 +1,56 @@
+.order-history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.order-details {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: 700px;
+  padding: 20px;
+  color: gray;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-details h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.order-details img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.order-details h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-details div {
+  margin-bottom: 10px;
+}
+
+.review-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.review-button:hover {
+  background-color: #0056b3;
+}
